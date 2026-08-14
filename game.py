@@ -12,10 +12,12 @@ def start_game():
 
         if userAction is None:
             print(f"{RED}Wrong option: Please try again{RESET}")
+            input("Press Enter to continue...")
         else:
             print("Selected Game Mode :", userAction)
     except ValueError:
         print(f"{RED}Wrong option: Please try again{RESET}")
+        input("Press Enter to continue...")
 
 
 def print_game_modes():

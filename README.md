@@ -11,5 +11,6 @@ GuessTheNumber/
 ├── statistics.py    # Статистика
 ├── colors.py        # Цвета
 └── storage.py       # Работа с JSON
+└── rules.txt        # Правила игры
 ```
 

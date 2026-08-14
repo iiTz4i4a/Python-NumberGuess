@@ -1,0 +1,235 @@
+
+GOAL
+----------------------------------------
+
+The computer chooses a secret number
+within the selected range.
+
+Your goal is to guess the secret number
+before you run out of attempts.
+
+
+---PAGE---
+
+HOW TO PLAY
+----------------------------------------
+
+1. Choose a game mode.
+2. The computer generates a secret number.
+3. Enter your guess.
+4. The game tells you if your guess
+   is higher or lower than the secret number.
+5. Use available hints to help you.
+6. Keep guessing until you win or
+   run out of attempts.
+
+---PAGE---
+
+========================================
+              GAME MODES
+========================================
+
+1. EASY
+----------------------------------------
+
+Small number range.
+More help and simpler hints.
+
+---PAGE---
+
+========================================
+              GAME MODES
+========================================
+
+2. NORMAL
+----------------------------------------
+
+Medium number range.
+Balanced difficulty.
+
+---PAGE---
+
+========================================
+              GAME MODES
+========================================
+
+3. HARD
+----------------------------------------
+
+Large number range.
+Fewer and more difficult hints.
+
+---PAGE---
+
+========================================
+              GAME MODES
+========================================
+
+4. INSANE
+----------------------------------------
+
+Very large number range.
+Limited help.
+
+---PAGE---
+
+========================================
+              GAME MODES
+========================================
+
+5. CUSTOM
+----------------------------------------
+
+Create your own game configuration.
+
+You can choose:
+- Minimum number
+- Maximum number
+- Number of attempts
+- Number of hints
+- Available hint levels
+
+---PAGE---
+
+========================================
+               ATTEMPTS
+========================================
+
+Each game mode has a limited number
+of attempts.
+
+Every valid guess consumes one attempt.
+
+If you run out of attempts before
+finding the secret number, you lose.
+
+---PAGE---
+
+========================================
+                 HINTS
+========================================
+
+Hints can help you find the secret number.
+
+Hints are divided into three levels.
+
+---PAGE---
+
+========================================
+LEVEL 1 — BASIC
+========================================
+
+Higher / Lower
+Even / Odd
+Upper / Lower Half
+
+---PAGE---
+
+========================================
+         LEVEL 2 — DISTANCE
+========================================
+
+These hints tell you how close
+your guess is to the secret number.
+
+---PAGE---
+
+VERY CLOSE
+----------------------------------------
+The secret number is very close
+to your guess.
+
+---PAGE---
+
+CLOSE
+----------------------------------------
+The secret number is close
+to your guess.
+
+---PAGE---
+
+WARM
+----------------------------------------
+Your guess is getting closer.
+
+---PAGE---
+
+FAR
+----------------------------------------
+The secret number is far
+from your guess.
+
+---PAGE---
+========================================
+          LEVEL 3 — NUMBER
+========================================
+
+FIRST DIGIT
+----------------------------------------
+Reveals the first digit of the
+secret number.
+
+---PAGE---
+LAST DIGIT
+----------------------------------------
+Reveals the last digit of the
+secret number.
+
+---PAGE---
+
+========================================
+          LEVEL 3 — NUMBER
+========================================
+
+NUMBER OF DIGITS
+----------------------------------------
+Tells you how many digits the
+secret number has.
+
+---PAGE---
+
+
+CONTAINS DIGIT
+----------------------------------------
+Tells you whether the secret number
+contains a specific digit.
+
+---PAGE---
+
+
+DIGIT SUM
+----------------------------------------
+Reveals the sum of all digits
+in the secret number.
+
+---PAGE---
+========================================
+              WINNING
+========================================
+
+You win when you correctly guess
+the secret number.
+
+---PAGE---
+
+========================================
+               LOSING
+========================================
+
+You lose when you use all available
+attempts without guessing the
+secret number.
+
+The secret number will then
+be revealed.
+
+---PAGE---
+
+========================================
+            GOOD LUCK!
+========================================
+
+Have fun and try to guess
+the secret number!
+
+========================================
