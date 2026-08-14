@@ -2,22 +2,27 @@ from colors import RED, YELLOW, GREEN, BOLD, RESET
 
 
 def start_game():
-    print(f"{GREEN}{BOLD}=== Start Game ==={RESET}")
-    print_game_modes()
+    while True:
+        print(f"{GREEN}{BOLD}=== Start Game ==={RESET}")
+        print_game_modes()
 
-    try:
-        userAction = select_game_template(
-            int(input(f"{YELLOW}Choose an option: {RESET}"))
-        )
+        try:
+            user_action = int(input(f"{YELLOW}Choose an option: {RESET}"))
 
-        if userAction is None:
+            if user_action == 6:
+                break
+
+            game_mode = select_game_template(user_action)
+
+            if game_mode is None:
+                print(f"{RED}Wrong option: Please try again{RESET}")
+                input("Press Enter to continue...")
+            else:
+                print("Selected:", game_mode)
+
+        except ValueError:
             print(f"{RED}Wrong option: Please try again{RESET}")
             input("Press Enter to continue...")
-        else:
-            print("Selected Game Mode :", userAction)
-    except ValueError:
-        print(f"{RED}Wrong option: Please try again{RESET}")
-        input("Press Enter to continue...")
 
 
 def print_game_modes():
@@ -27,6 +32,7 @@ def print_game_modes():
         "3. Hard (1-1000)",
         "4. Insane (1-1000000)",
         "5. Custom",
+        "6. Close",
     ]
     for modes in game_modes:
         print(modes)
@@ -43,5 +49,8 @@ def select_game_template(n):
         return "Insane (1-1000000)"
     elif n == 5:
         return "Custom"
+    elif n == 6:
+        return "Close"
+
     else:
         return None
