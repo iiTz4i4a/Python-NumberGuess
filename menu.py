@@ -39,7 +39,7 @@ def show_rules():
         print("\n----------------------------------------")
         print(f"Page {current_page + 1}/{total_pages}")
         print("----------------------------------------")
-        print("[N] Next    [B] Back    [Q] Quit")
+        print(f"{RED}{BOLD}[N] Next    [B] Back    [Q] Quit{RESET}")
 
         action = input("\nChoose an option: ").strip().lower()
 
